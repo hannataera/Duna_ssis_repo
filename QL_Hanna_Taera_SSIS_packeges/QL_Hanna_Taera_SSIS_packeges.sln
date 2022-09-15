@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "QL_Hanna_Taera_SSIS_packeges", "QL_Hanna_Taera_SSIS_packeges.dtproj", "{A6964C27-7CB6-465B-896F-55EC4A567ED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6964C27-7CB6-465B-896F-55EC4A567ED9}.Development|Default.ActiveCfg = Development
+		{A6964C27-7CB6-465B-896F-55EC4A567ED9}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDA2DD75-21B5-4894-ABCC-1D27A166295F}
+	EndGlobalSection
+EndGlobal
