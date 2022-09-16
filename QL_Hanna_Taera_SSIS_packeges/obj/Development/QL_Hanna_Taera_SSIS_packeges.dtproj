@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">HANNA</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXxSzJsYRgkeGRxyp5Fi1BwAAAAACAAAAAAAQZgAAAAEAACAAAABdlk/anj4Mami1zpNu9GyzVinfl+beEPMK/agS0UhIhwAAAAAOgAAAAAIAACAAAABQDVjbp2oH2U3qoDBBPu6zjSTYEAnxvy8Wh09XZD8PV5AAAADu+rYPDHUpP0TL+C8N2JHOqP5Mw18WRcBRbtx7YkbFY3Qy88mS2YX23JQ2Ec2upb3tVplVNS9gvb3YLhl0w/DKsMlGKPEJQ9ZVktlq5imGNCuqf0k4Wle2/U2hH5yYkgMPitx0zAR8z7ODVMZRew6vFoZGsvixSP/FpyeMXIg3dK4uLweDxMb/zy9rU64s5qZAAAAAbDpraSpbKboHu203iFRIrxLQRpHKmywPVrhjT0FjUnBlj9JCD8K1G2/CIKC3C4NGkNJbP+K1Zez0TSBtspyI4Q==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXxSzJsYRgkeGRxyp5Fi1BwAAAAACAAAAAAAQZgAAAAEAACAAAADmr07EprbI3dNTaz+eAUxeGjPZih5DkN4UeArZQCslZwAAAAAOgAAAAAIAACAAAAA+dKdS5ViFDEk4lQncemJYvBJ3A1/BMLj3L3MLLLkt95AAAAC3iNvPkP0fkrcjkVUhIHhngctJqePM46jV7YKow/x/qrB0/r28ij/ioExy3UTTQD1/uBN+nKbYtRdoP+RXE3e4B5FFemySMY3tBhxCvEeyAOgSImCpahz83lfYskQ6L4rrAOk/KOoTPy9ZM7WvwlcNllD9yT2lrIx1ry+jC1/ERn/1vrMnAf2cbBwMkSMN8+JAAAAAxdxmjBHUPo2SS+Fl7XVNlAW4BLrHWtoi9QzdcW2QsMK6UlTpTCDSCRyp+T0ewTgXCMLZ8IzXYouLXCFrCbIE9Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -96,10 +96,10 @@
                 <SSIS:Property SSIS:Name="Name">Package3</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{499CD737-7D86-48CC-92EA-286D9EE860A2}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2C8A55BB-D466-49DE-97EE-E63E1600694E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -254,7 +254,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.OData Source.AuthType">
+                <SSIS:Parameter SSIS:Name="CM.hanna.taera.AuthType">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -269,7 +269,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.OData Source.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.hanna.taera.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -284,7 +284,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.OData Source.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.hanna.taera.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -295,11 +295,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB2/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;Cookie="SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjEyLDBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMDQ1MzllODlmQGxpdmUuY29tLDAjLmZ8bWVtYmVyc2hpcHxzaGFyZXBvaW50QGR1bmF0ay5jb20sMTMzMDc3NjI2MTUwMDAwMDAwLDEzMzA1ODYzNzg1MDAwMDAwMCwxMzMwNzg0OTAxNTMxNzMyNjEsMC4wLjAuMCw0LDg1ZGRmN2U5LTgwNjgtNGJiNi04OTc5LTQ0NzYxNDQyZTM5YSwsLGQxNWU2NWEwLTYwM2QtMjAwMC01YmJjLWVjZDYyY2NhNGVhNSxkMTVlNjVhMC02MDNkLTIwMDAtNWJiYy1lY2Q2MmNjYTRlYTUsLDAsMCwwLCwsLDI2NTA0Njc3NDM5OTk5OTk5OTksMCwsLCwsLCwwLCx0bUg2Y2xka1p5K2hMZ0pZQkdHUGwzSXdpSWNHYVBGNUM3OFVuQzV2K2V4cWxoZnZWV1BhWnNVcHNyT25RK1RDdkk1bGloaFkxWG5yb3JVQkgxNE9xTkliMXhDaGpBRXBHTExIdVIydzcrY2k3UmlXeGROQXFDYThQRkd2d3dkU3Rad3dwVVRPWG1OY2dNaEZGbk1UaVQwQnJ3M3pEaGR1TXlCb3JBb3NVZnZPbVJKdmd1TDVXNSt2emxsU0tGWG1IZFVWN202N0ZMQTJSbzR1N1haNkJSU3poT2twVmpIeS9xY3k0TEpFQk8vTzBQUVVIRmVaWGZqeVBmaWxGdTYzRFBGL2JlcXpSZm85ZnlKN04vWWJsRDhJY0l0Uk9OTjBJNnF1eHBEdndVd0J4Q2g5SkkzOEEzb2VYa0k5bElFc3ZLcUZJMktaSlFId25yYVFieVBrL0E9PTwvU1A+";User ID=sharepoint@dunatk.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB2/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;Cookie="SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjEyLDBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMDQ1MzllODlmQGxpdmUuY29tLDAjLmZ8bWVtYmVyc2hpcHxzaGFyZXBvaW50QGR1bmF0ay5jb20sMTMzMDc4MjQzNjUwMDAwMDAwLDEzMzA1ODYzNzg1MDAwMDAwMCwxMzMwNzkxMDc2NjAyMjEyODcsMC4wLjAuMCw0LDg1ZGRmN2U5LTgwNjgtNGJiNi04OTc5LTQ0NzYxNDQyZTM5YSwsLGI1OTk2NWEwLTcwMTktMjAwMC01YmJjLWU1MmJmZTQyZWM1MSxiNTk5NjVhMC03MDE5LTIwMDAtNWJiYy1lNTJiZmU0MmVjNTEsLDAsMCwwLCwsLDI2NTA0Njc3NDM5OTk5OTk5OTksMCwsLCwsLCwwLCx1VW1oTWRKeTQwTmJJWnNudmloVW55TUoyODVmc1FuNnZkYXN2K3hOQlJnSURvY0IvbXRDWDc3VC82SnRWcDFKK280Y1FhbFlZVVBVU2tQd2NzWnlrYmJid25najRPYWkyVnVqZ3ZZcUNLdEk0NVQ4cVU4VkxGR0x3S1hhZ3YxaGxzQlpHYWUyQVE5NjJMbFdOeEhqZmM0NVI4cEcrWU9UdUlXTE1lci9KZms4UlBoMmRHcnNmemlySlMrTVZUMjhBRHBUYzNjN040M1hMc3hKOHhvZjFFTGJZZ3BxNXZ5U1RTRGE4Zlc5eDVuOTRybllTKzUxSk8xU1FxR3lIODJSSm83NEFOdTRobEFnZjBrdG0wa2pDT2FZcVRhNVZlOUtrQTBUZCtKekpSYUdQYXFEakE4UUxOTDc3anh5cCtmWEt0SDhINjlFdjhBajFiMkZLUUlrRUE9PTwvU1A+";User ID=sharepoint@dunatk.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.OData Source.Password">
+                <SSIS:Parameter SSIS:Name="CM.hanna.taera.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -313,7 +313,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.OData Source.TargetServerVersion">
+                <SSIS:Parameter SSIS:Name="CM.hanna.taera.TargetServerVersion">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -328,7 +328,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.OData Source.Url">
+                <SSIS:Parameter SSIS:Name="CM.hanna.taera.Url">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -343,7 +343,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.OData Source.UserName">
+                <SSIS:Parameter SSIS:Name="CM.hanna.taera.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
